@@ -1,6 +1,14 @@
 using System;
 
 namespace Dash{
+  public class Vector {
+    public static Vector2 AddVec2(Vector2 V1, Vector2, V2){
+      var VecA = new Vector2(0, 0)
+      V1.X +=V2.X;
+    }
+  }
+}
+namespace Dash{
   public class Vector2 {
     public float X;
     public float Y;
