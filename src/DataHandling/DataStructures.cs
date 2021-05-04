@@ -10,7 +10,7 @@ namespace Dash {
       Data = new Object[MaxData];
       
     }
-    public static void AddData(Object Data2Add)
+    public static void AddData(Object Data2Add){
       if(AddedData < MaxData){
         Data[AddedData] = Data2Add;
         AddedData += 1;
