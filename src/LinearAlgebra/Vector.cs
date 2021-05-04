@@ -65,6 +65,27 @@ namespace Dash{
       VecA.W = V1.Z * V2.W;
       return VecA;
     }
+     public static Vector2 DivideVec2(Vector2 V1, Vector2 V2){
+      var VecA = new Vector2(0, 0)
+      VecA.X = V1.X / V2.X;
+      VecA.Y = V1.Y / V2.Y;
+      return VecA;
+    }
+    public static Vector3 DivideVec3(Vector3 V1, Vector3 V2){
+      var VecA = new Vector3(0, 0, 0)
+      VecA.X = V1.X / V2.X;
+      VecA.Y = V1.Y / V2.Y;
+      VecA.Z = V1.Z / V2.Z;
+      return VecA;
+    }
+    public static Vector4 DivideVec4(Vector4 V1, Vector4 V2){
+      var VecA = new Vector4(0, 0, 0, 0)
+      VecA.X = V1.X / V2.X;
+      VecA.Y = V1.Y / V2.Y;
+      VecA.Z = V1.Z / V2.Z;
+      VecA.W = V1.Z / V2.W;
+      return VecA;
+    }
   }
 }
 namespace Dash{
