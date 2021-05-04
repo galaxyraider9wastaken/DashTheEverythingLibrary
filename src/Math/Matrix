@@ -2,14 +2,13 @@ using System;
 namespace Dash{
   public class Matrix {
     public float[][] Mat;
-    pubilic Vector2 Size;
-    public Vector4(Vector2 size){
+    public Vector2 Size;
+    public Matrix(Vector2 size){
       Size = size;
       Mat = new float[(int)Size.X][];
       for(int i =0;i<(int)Size.X;i++){
-        Mat[i] = new float[(int)Size.Y);
+        Mat[i] = new float[(int)Size.Y];
       }
     }
   }
 }
-
