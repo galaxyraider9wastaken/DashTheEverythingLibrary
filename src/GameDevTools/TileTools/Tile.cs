@@ -1,5 +1,5 @@
-  
 using System;
+
 namespace Dash{
   public class Tile {
     public int Id;
